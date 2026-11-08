@@ -1,0 +1,41 @@
+# Unreal generated files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# Local tools, downloads, extracted lecture PDFs, and backups
+/tmp/
+.vs/
+.idea/
+.vscode/
+.codex/
+.agents/
+__pycache__/
+*.py[cod]
+*.sln
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.sln.docstates
+*.log
+*.tmp
+*.bak
+
+# Machine-specific credentials/settings
+Config/User*.ini
+Config/DefaultEditorPerProjectUserSettings.ini
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
